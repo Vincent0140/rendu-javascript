@@ -1,0 +1,153 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.presentation-contenu{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1500px;
+    justify-content: center;
+    background-color: rgb(0, 90, 244);
+}
+.boule{
+    width: 40%;
+    margin-left: 20%;
+}
+.h1{
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 50px;
+    margin-left: -150px;
+    text-align: center;
+}
+.division{
+    background-color: white;
+    height: 100px;
+    width: 1000px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 15px;
+}
+.division2{
+    background-color: white;
+    height: 300px;
+    width: 700px;
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-bottom: 900px;
+    padding: 20px;
+}
+.carte{
+    height: 400px;
+    margin-top: -50px;
+}
+p{
+    font-size: 25px;
+}
+.division3{
+    background-color: white;
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: -850px;
+    margin-left: 650px;
+    font-size: 28px;
+ 
+
+}
+.combat{
+    height: 310px;
+    border-radius: 30%;
+    margin-top: -850px;
+   
+}
+.division4{
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: -500px;
+    padding: 15px;
+    margin-left: 80px;
+}
+.transfo{
+    height: 330px;
+    border-radius: 30px;
+    margin-top: -500px;
+    margin-left: 700px;
+    margin-right: 50px;
+}
+.division5{
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    margin-top: -120px;
+    border-radius: 20%;
+    padding: 32px;
+    margin-right: 200px;
+}
+.lien{
+    color: rgb(208, 0, 255);
+    font-size: 21px;
+    margin-left: 22px;
+}
+.division6{
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    margin-top: -120px;
+    border-radius: 20%;
+    padding: 32px;
+}
+.lien2{
+    color: orange;
+    font-size: 21px;
+    margin-left: 16px;
+}
+
+.bloc {
+    color: black;
+    background-color: white;
+}
+
+.dark-mode {
+    background-color: black ;
+    color: white;
+}
+
+.dark-mode .presentation-contenu {
+    background-color: rgb(44, 44, 51);
+    color: white;
+}
+
+.dark-mode .division,
+.dark-mode .division2,
+.dark-mode .division3,
+.dark-mode .division4,
+.dark-mode .division5,
+.dark-mode .division6 {
+    background-color: darkgray;
+    color: white;
+}
+
+.dark-mode .lien,
+.dark-mode .lien2 {
+    color: white;
+}
+
+.dark-mode p {
+    color: white;
+}
+
+.bouton{
+    background-color: white;
+    color: black;
+}
+
+.dark-mode .bouton{
+    background-color: black;
+    color: white;
+}
